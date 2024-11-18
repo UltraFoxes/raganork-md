@@ -11,7 +11,7 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"+"
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
@@ -51,12 +51,12 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"Hitman"
         },
         "BOT_INFO": {
             "description": "Name, image, owner and other details in menu (seperate with comma)",
             "required": true,
-            "value":"Raganork,SKL11,91123456789,https://i.imgur.com/B2YWSLk.jpg"
+            "value":"HITMAN,L06S,2348163137129,https://imgur.com/a/WVjPr7X.img"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -71,7 +71,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919074309534"
+            "value":"2348163137129"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
